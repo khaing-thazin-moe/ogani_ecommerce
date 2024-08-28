@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ogani Site</title>
+
+    <!-- font awesome 5.15.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- magnific pop css1 js1-->
+    <link rel="stylesheet" href="./assets/libs/Magnific-Popup-master/dist/magnific-popup.css">
+
+    <!-- owlcarousel css2 js1 -->
+    <link rel="stylesheet" href="./assets/libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+    <!-- jquery ui css1 js1 -->
+    <link rel="stylesheet" href="./assets/libs/jquery-ui-1.13.2.custom/jquery-ui.min.css">
+
+    <!-- bootstrap v5.3 css1 js1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/dist/css/style.css">
+
+</head>
+<body >
+    <div class="d-none d-lg-flex  header_top_bar">
+        <div class="container">
+            <div class="py-2 d-flex justify-content-between align-items-center">
+                <div class="header_left_top">
+                    <ul class="m-0 p-0 d-flex list-unstyled ">
+                        <li class="pe-3 border-end border-1  ">
+                            <a href="mali:hello@gmail.com" class="nav-link">
+                                <i class="fas fa-envelope pe-2"></i>Hello@gmail.com
+                            </a>
+                        </li>
+                        <li class="ps-3">
+                            <span>Free Shipping for all Order of $99</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="d-flex m-0 p-0 header_right_top">
+                    <ul class="p-0 m-0 d-flex list-unstyled pe-3 border-end border-1  ">
+                        <li class="px-2">
+                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="px-2">
+                            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="px-2">
+                            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="px-2">
+                            <a href="#" class="nav-link"><i class="fab fa-google-plus"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="p-0 m-0 d-flex list-unstyled px-3 border-end border-1  ">
+                        <li class="px-2">
+                            <a href="#" class="nav-link">Language</a>
+                        </li>
+                    </ul>
+                    <ul class="p-0 ps-3 m-0 d-flex list-unstyled">
+                        <li><a href="./login.html" class="nav-link"><i class="fas fa-user pe-2"></i>Login</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <!-- start header section  -->
+    <header>
+        <div class="container">
+            <nav class=" d-block d-lg-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-center">
+                    <a href="#" class="navbar-brand">
+                        <img src="./assets/imgs/logos/logo.png.webp" width="150px" alt="logo">
+                    </a>
+                    <button class="d-block d-lg-none p-2 navbar-toggler border border-1 border-dark">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <div class="d-none d-lg-block">
+                    <ul class=" d-flex m-0 p-0 text-uppercase fw-bold list-unstyled nav_list">
+                        <li class=""><a href="./index.html" class="py-2 px-3 nav-link ">Home</a></li>
+                        <li class=""><a href="./shop.html" class="py-2 px-3 nav-link active">Shop</a></li>
+                        <li class=""><a href="./cart.html" class="py-2 px-3 nav-link ">cart</a></li>
+                        <li class=""><a href="./contact.html" class="py-2 px-3 nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="m-0 p-0 list-unstyled d-flex align-items-center justify-content-center">
+                        <li>
+                            <a href="./fav.html" class="p-2 nav-link shop_cout">
+                                <i class="fas fa-heart"></i>
+                                <span class="badge rounded-circle fav_product">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./cart.html" class="p-2 nav-link shop_cout">
+                                <i class="fas fa-shopping-bag"></i>
+                                <span class="badge rounded-circle cart_product">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="p-2 nav-link">
+                                <small class="text-muted">item:</small>
+                                <span class="fw-bold total_items"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+
+            </nav>
+            <aside class=" d-block d-lg-none nav_slide_bar">
+                <div class="p-4">
+                    <div class="">
+                        <img src="./assets/imgs/logos/logo.png.webp" width="120px" alt="logo">
+                    </div>
+                    <ul class="m-0 p-0 py-3 list-unstyled d-flex align-items-center justify-content-start">
+                        <li>
+                            <a href="./fav.html" class="p-2 nav-link shop_cout">
+                                <i class="fas fa-heart"></i>
+                                <span class="badge rounded-circle fav_product">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./cart.html" class="p-2 nav-link shop_cout">
+                                <i class="fas fa-shopping-bag"></i>
+                                <span class="badge rounded-circle cart_product">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="p-2 nav-link">
+                                <small class="text-muted">item:</small>
+                                <span class="fw-bold total_items"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <ul class="p-0 m-0 d-flex list-unstyled px-3 border-end border-1  ">
+                            <li class="px-2">
+                                <a href="#" class="nav-link">Language</a>
+                            </li>
+                        </ul>
+                        <ul class="p-0 ps-3 m-0 d-flex list-unstyled">
+                            <li><a href="./login.html" class="nav-link"><i class="fas fa-user pe-2"></i>Login</a></li>
+                        </ul>
+                    </div>
+                    <ul class="px-5 py-3 text-uppercase list-unstyled nav_list">
+                        <li><a href="./index.html" class="py-2 nav-link fw-bold ">Home</a></li>
+                        <li><a href="./shop.html" class="py-2 nav-link fw-bold active">Shop</a></li>
+                        <li><a href="./cart.html" class="py-2 nav-link fw-bold ">Cart</a></li>
+                        <li><a href="./contact.html" class="py-2 nav-link fw-bold ">Contact</a></li>
+                    </ul>
+
+                    <ul class="p-0 m-0 d-flex list-unstyled pe-3  ">
+                        <li class="px-2">
+                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="px-2">
+                            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="px-2">
+                            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="px-2">
+                            <a href="#" class="nav-link"><i class="fab fa-google-plus"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="mt-3 p-0 list-unstyled ">
+                        <li class="">
+                            <a href="mali:hello@gmail.com" class="nav-link">
+                                <i class="fas fa-envelope pe-2"></i>Hello@gmail.com
+                            </a>
+                        </li>
+                        <li class="">
+                            <span>Free Shipping for all Order of $99</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+
+    </header>
+    <!-- end header section -->
+
+    <!-- start banner section -->
+    <section class="banner_section">
+        <div class="container">
+            <div class="row">
+                <div class=" px-2 col-lg-3 col-md-12 mb-2">
+                    <div class="all_dept_list_btn" style="padding: 13px 0px;background-color: var(--global-green-color); font-size: 18px; cursor: pointer;">
+                        <div class="text-center text-white">
+                            <i class="fas fa-bars"></i>
+                            <span class="px-3 d-inline-block text-capitalize fw-bold">All Departments</span>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                    </div>
+                    <div class=" all_dept_list_container">
+                        <div class="all_dept_list">
+                            <ul class="border border-1 list-unstyled">
+                                <li class=""><a href="#" class="px-5 py-2 nav-link">Fresh Meat</a></li>
+                                <li class=""><a href="#" class="px-5 py-2 nav-link">Vegatables</a></li>
+                                <li class=""><a href="#" class="px-5 py-2 nav-link">Fruit & Nut Gifts</a></li>
+                                <li class=""><a href="#" class="px-5 py-2 nav-link">Fresh Berries</a></li>
+                                <li class=""><a href="#" class="px-5 py-2 nav-link">Ocean Foods</a></li>
+                                <li class=""><a href="#" class="px-5 py-2 nav-link">Butter & Eggs</a></li>
+                                <li class=""><a href="#" class="px-5 py-2 nav-link">Fastfood</a></li>
+                                <li class=""><a href="#" class="px-5 py-2 nav-link">Fresh Onion</a></li>
+                                <li class=""><a href="#" class="px-5 py-2 nav-link">Papayaya & Crisps</a></li>
+                                <li class=""><a href="#" class="px-5 py-2 nav-link">Oatmeal</a></li>
+                                <li class=""><a href="#" class="px-5 py-2 nav-link">Fresh Bananas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class=" col-lg-9 col-md-12 mb-2">
+                    <div class="px-2 banner_container">
+                        <div class="mb-2 row justify-content-between ">
+                            <div class="col-lg-8 col-md-12 mb-3">
+                                <div class="border border-1 row align-items-center">
+                                    <div class="col-4 ps-3">
+                                        <div class="pe-3 d-flex justify-content-between align-items-center border-end border-1 search_bar_left">
+                                            <span class="text-capitalize">All Categories</span>
+                                            <i class="fas fa-angle-down "></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 p-0">
+                                        <div class="input-group">
+                                            <input type="text" name="" class=" form-control border-0 shadow-none outline-none rounded-0 " id="" placeholder="What do you need?">
+                                            <button class=" text-uppercase text-white fw-bold btn rounded-0 " style="background-color: var(--global-green-color);">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-8">
+                                <div class="contact_phone_container">
+                                    <div class="row justify-content-end">
+                                        <div class="col-3 p-0 d-flex justify-content-start ">
+                                            <div class=" rounded-circle phone_icon">
+                                                <i class="fas fa-phone"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-9">
+                                            <div class="ms-2 d-flex flex-column justify-content-between  phone_sup">
+                                                <h3 class="">+65 118881332</h3>
+                                                <small>support 24/7 time</small>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end banner section -->
+
+    <!-- start sub banner section -->
+    <section class="sub_banner_section">
+        <div class="py-5 sub_banner_container">
+            <div class="container">
+                <h3 class="text-center text-white fw-bold">Organi Shop</h3>
+                <div class="text-center text-white">
+                    <span class="fw-semibold">Home -</span>
+                    <span>Shop</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end sub banner section -->
+
+    <section class="py-5 shop_container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-5 col-sm-12 mb-2 pe-5`  ">
+                    <div class="mb-5 shop_edit_container">
+                        <div class="shop_edit_header">
+                            <h2 class="text-start">Department</h2>
+                        </div>
+                        <div class="shop_edit_body">
+                            <ul class="list-unstyled">
+                                <li class=""><a href="#" class=" py-2 nav-link">Fresh Meat</a></li>
+                                <li class=""><a href="#" class=" py-2 nav-link">Vegatables</a></li>
+                                <li class=""><a href="#" class=" py-2 nav-link">Fruit & Nut Gifts</a></li>
+                                <li class=""><a href="#" class=" py-2 nav-link">Fresh Berries</a></li>
+                                <li class=""><a href="#" class=" py-2 nav-link">Ocean Foods</a></li>
+                                <li class=""><a href="#" class=" py-2 nav-link">Butter & Eggs</a></li>
+                                <li class=""><a href="#" class=" py-2 nav-link">Fastfood</a></li>
+                                <li class=""><a href="#" class=" py-2 nav-link">Fresh Onion</a></li>
+                                <li class=""><a href="#" class=" py-2 nav-link">Papayaya & Crisps</a></li>
+                                <li class=""><a href="#" class=" py-2 nav-link">Oatmeal</a></li>
+                                <li class=""><a href="#" class=" py-2 nav-link">Fresh Bananas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-5 shop_edit_container">
+                        <div class="shop_edit_header">
+                            <h2 class="text-start">Price</h2>
+                        </div>
+                        <div class="my-3 shop_edit_body">
+                            <div id="price_slider-range" class="mb-2"></div>
+                            <p>
+                                <input type="text" id="amount" readonly style="border:0; color:#dd1111; font-weight:bold;" class="form-control border-0 shadow-none">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mb-5 shop_edit_container">
+                        <div class="product_choise owl-carousel owl-loaded owl-theme">
+                            <h2 class="product_choise_title">Latest Products</h2>
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage">
+                                    <div class="owl-item">
+                                        
+                                        <ul class="list-unstyled">
+                                            <li class="py-2 d-flex">
+                                                <div class=" product_img">
+                                                    <img src="./assets/imgs/products/lp-1.jpg.webp" width="100px" height="100px" alt="lp-1">
+                                                </div>
+                                                <div class="py-2 ps-3 d-flex flex-column justify-content-between align-items-start product_pricing_container">
+                                                    <div class="my-2 text-start product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-start product_price">$30.00</h3>
+                                                    
+                                                </div>
+                                            </li>
+                                            <li class="py-2 d-flex">
+                                                <div class=" product_img">
+                                                    <img src="./assets/imgs/products/lp-2.jpg.webp" width="100px" height="100px" alt="lp-2">
+                                                </div>
+                                                <div class="py-2 ps-3 d-flex flex-column justify-content-between align-items-start product_pricing_container">
+                                                    <div class="my-2 text-start product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-start product_price">$30.00</h3>
+                                                    
+                                                </div>
+                                            </li>
+                                            <li class="py-2 d-flex">
+                                                <div class=" product_img">
+                                                    <img src="./assets/imgs/products/lp-3.jpg.webp" width="100px" height="100px" alt="lp-3">
+                                                </div>
+                                                <div class="py-2 ps-3 d-flex flex-column justify-content-between align-items-start product_pricing_container">
+                                                    <div class="my-2 text-start product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-start product_price">$30.00</h3>
+                                                    
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="owl-item">
+                                        
+                                        <ul class="list-unstyled">
+                                            <li class="py-2 d-flex">
+                                                <div class=" product_img">
+                                                    <img src="./assets/imgs/products/lp-1.jpg.webp" width="100px" height="100px" alt="lp-1">
+                                                </div>
+                                                <div class="py-2 ps-3 d-flex flex-column justify-content-between align-items-start product_pricing_container">
+                                                    <div class="my-2 text-start product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-start product_price">$30.00</h3>
+                                                    
+                                                </div>
+                                            </li>
+                                            <li class="py-2 d-flex">
+                                                <div class=" product_img">
+                                                    <img src="./assets/imgs/products/lp-2.jpg.webp" width="100px" height="100px" alt="lp-2">
+                                                </div>
+                                                <div class="py-2 ps-3 d-flex flex-column justify-content-between align-items-start product_pricing_container">
+                                                    <div class="my-2 text-start product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-start product_price">$30.00</h3>
+                                                    
+                                                </div>
+                                            </li>
+                                            <li class="py-2 d-flex">
+                                                <div class=" product_img">
+                                                    <img src="./assets/imgs/products/lp-3.jpg.webp" width="100px" height="100px" alt="lp-3">
+                                                </div>
+                                                <div class="py-2 ps-3 d-flex flex-column justify-content-between align-items-start product_pricing_container">
+                                                    <div class="my-2 text-start product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-start product_price">$30.00</h3>
+                                                    
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-7 col-sm-12">
+                    <section class="pb-5 sale_off_section">
+                        <!-- start global secondary title -->
+                        <div class="mb-5 global_secondary_title">
+                            <h3 class="pb-3 text-start">Sale Off</h3>
+                        </div>
+                        <!-- end global secondary title -->
+                        <div id="sale_off_carousel" class="owl-carousel owl-loaded owl-theme">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage">
+                                    <div class="owl-item">
+                                        <div class="px-1 sale_off_product_container">
+                                            <div class="global_product_show_case_container">
+                                                <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-1.jpg.webp');">
+                                                    <div class="rounded-circle sale_off_per">
+                                                        25%
+                                                    </div>
+                                                    <div class="product_show_case_btns">
+                                                        <ul class="d-flex list-unstyled">
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_pricing_container">
+                                                    
+                                                    <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-center product_price">$30.00   </h3>
+                                                    <small class="text-muted text-center d-block fw-normal">$36.00</small>
+                                                    
+                                                    <small class="text-center text-muted d-block">Drink Food</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="px-1 sale_off_product_container">
+                                            <div class="global_product_show_case_container">
+                                                <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-2.jpg.webp');">
+                                                    <div class="rounded-circle sale_off_per">
+                                                        25%
+                                                    </div>
+                                                    <div class="product_show_case_btns">
+                                                        <ul class="d-flex list-unstyled">
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_pricing_container">
+                                                    
+                                                    <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-center product_price">$30.00   </h3>
+                                                    <small class="text-muted text-center d-block fw-normal">$36.00</small>
+                                                    
+                                                    <small class="text-center text-muted d-block">Drink Food</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="px-1 sale_off_product_container">
+                                            <div class="global_product_show_case_container">
+                                                <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-3.jpg.webp');">
+                                                    <div class="rounded-circle sale_off_per">
+                                                        25%
+                                                    </div>
+                                                    <div class="product_show_case_btns">
+                                                        <ul class="d-flex list-unstyled">
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_pricing_container">
+                                                    
+                                                    <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-center product_price">$30.00   </h3>
+                                                    <small class="text-muted text-center d-block fw-normal">$36.00</small>
+                                                    
+                                                    <small class="text-center text-muted d-block">Drink Food</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="px-1 sale_off_product_container">
+                                            <div class="global_product_show_case_container">
+                                                <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-4.jpg.webp');">
+                                                    <div class="rounded-circle sale_off_per">
+                                                        25%
+                                                    </div>
+                                                    <div class="product_show_case_btns">
+                                                        <ul class="d-flex list-unstyled">
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_pricing_container">
+                                                    
+                                                    <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-center product_price">$30.00   </h3>
+                                                    <small class="text-muted text-center d-block fw-normal">$36.00</small>
+                                                    
+                                                    <small class="text-center text-muted d-block">Drink Food</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="px-1 sale_off_product_container">
+                                            <div class="global_product_show_case_container">
+                                                <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-5.jpg.webp');">
+                                                    <div class="rounded-circle sale_off_per">
+                                                        25%
+                                                    </div>
+                                                    <div class="product_show_case_btns">
+                                                        <ul class="d-flex list-unstyled">
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_pricing_container">
+                                                    
+                                                    <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-center product_price">$30.00   </h3>
+                                                    <small class="text-muted text-center d-block fw-normal">$36.00</small>
+                                                    
+                                                    <small class="text-center text-muted d-block">Drink Food</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item">
+                                        <div class="px-1 sale_off_product_container">
+                                            <div class="global_product_show_case_container">
+                                                <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-6.jpg.webp');">
+                                                    <div class="rounded-circle sale_off_per">
+                                                        25%
+                                                    </div>
+                                                    <div class="product_show_case_btns">
+                                                        <ul class="d-flex list-unstyled">
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                            </li>
+                                                            <li class="px-1">
+                                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_pricing_container">
+                                                    
+                                                    <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                    <h3 class=" text-center product_price">$30.00   </h3>
+                                                    <small class="text-muted text-center d-block fw-normal">$36.00</small>
+                                                    
+                                                    <small class="text-center text-muted d-block">Drink Food</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <hr>
+                    <section class="show_products_section">
+                        <div class="mb-4 d-flex justify-content-between show_products_header">
+                            <div class="show_products_btn_group">
+                                <span>Sort By</span>
+                                <select name="" id="product_sort_btn" class="ms-2 fw-bold border-0 outline-none product_sort_btn  ">
+                                    <option value="df" selected disabled class="fw-bold">Default</option>
+                                    <option value="az"  class="">A-Z</option>
+                                    <option value="za"  class="">Z-A</option>
+                                </select>
+                            </div>
+                            <div class="show_products_total">
+                                <span class="fw-bold">16</span>
+                                <span class="d-inline-block text-muted">Products</span>
+                            </div>
+                            <div class="show_products_layout_group">
+                                <button type="button" class="border-0 active"><i class="fas fa-th-large"></i></button>
+                                <button type="button" class="border-0"><i class="fas fa-list-ul"></i></button>
+                            </div>
+                        </div>
+                        <div class="show_products_body">
+                            <div class="show_product_container active">
+                                <div class="row  product_show_grid">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-2 product_show_case frm org">
+                                        <div class="global_product_show_case_container">
+                                            <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-1.jpg.webp');">
+                                                <div class="product_show_case_btns">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart "></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart "></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product_pricing_container">
+                                                <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                <h3 class=" text-center product_price">$30.00</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-2 product_show_case veg ffd">
+                                        <div class="global_product_show_case_container">
+                                            <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-2.jpg.webp');">
+                                                <div class="product_show_case_btns">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product_pricing_container">
+                                                <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                <h3 class=" text-center product_price">$30.00</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-2 product_show_case frm veg">
+                                        <div class="global_product_show_case_container">
+                                            <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-3.jpg.webp');">
+                                                <div class="product_show_case_btns">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product_pricing_container">
+                                                <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                <h3 class=" text-center product_price">$30.00</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-2 product_show_case  org ffd">
+                                        <div class="global_product_show_case_container">
+                                            <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-4.jpg.webp');">
+                                                <div class="product_show_case_btns">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon" ><i class="fas fa-heart"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product_pricing_container">
+                                                <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                <h3 class=" text-center product_price">$30.00</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-2 product_show_case frm veg">
+                                        <div class="global_product_show_case_container">
+                                            <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-5.jpg.webp');">
+                                                <div class="product_show_case_btns">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product_pricing_container">
+                                                <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                <h3 class=" text-center product_price">$30.00</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-2 product_show_case  org ffd">
+                                        <div class="global_product_show_case_container">
+                                            <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-6.jpg.webp');">
+                                                <div class="product_show_case_btns">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product_pricing_container">
+                                                <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                <h3 class=" text-center product_price">$30.00</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-2 product_show_case frm veg">
+                                        <div class="global_product_show_case_container">
+                                            <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-7.jpg.webp');">
+                                                <div class="product_show_case_btns">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product_pricing_container">
+                                                <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                <h3 class=" text-center product_price">$30.00</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-2 product_show_case veg ffd">
+                                        <div class="global_product_show_case_container">
+                                            <div class="d-flex flex-column justify-content-end align-items-center product_show_case_img_container" style="background-image: url('./assets/imgs/products/feature-8.jpg.webp');">
+                                                <div class="product_show_case_btns">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                                        </li>
+                                                        <li class="px-1">
+                                                            <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product_pricing_container">
+                                                <div class="my-2 text-center product_name">Crab Pool Security</div>
+                                                <h3 class=" text-center product_price">$30.00</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="show_product_container product_show_list">
+                                <ul class="list-unstyled">
+                                    <li class="py-1 d-flex justify-content-between align-items-center">
+                                        <div class="product_imgs" style="background-image: url('./assets/imgs/products/feature-1.jpg.webp');"></div>
+                                        <span class="product_name">Carb Pool Security</span>
+                                        <span class="fw-bold product_price">$30.00</span>
+                                        <ul class="d-flex list-unstyled product_action_btns">
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-1 d-flex justify-content-between align-items-center">
+                                        <div class="product_imgs" style="background-image: url('./assets/imgs/products/feature-2.jpg.webp');"></div>
+                                        <span class="product_name">Carb Pool Security</span>
+                                        <span class="fw-bold product_price">$30.00</span>
+                                        <ul class="d-flex list-unstyled product_action_btns">
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-1 d-flex justify-content-between align-items-center">
+                                        <div class="product_imgs" style="background-image: url('./assets/imgs/products/feature-3.jpg.webp');"></div>
+                                        <span class="product_name">Carb Pool Security</span>
+                                        <span class="fw-bold product_price">$30.00</span>
+                                        <ul class="d-flex list-unstyled product_action_btns">
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-1 d-flex justify-content-between align-items-center">
+                                        <div class="product_imgs" style="background-image: url('./assets/imgs/products/feature-4.jpg.webp');"></div>
+                                        <span class="product_name">Carb Pool Security</span>
+                                        <span class="fw-bold product_price">$30.00</span>
+                                        <ul class="d-flex list-unstyled product_action_btns">
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-1 d-flex justify-content-between align-items-center">
+                                        <div class="product_imgs" style="background-image: url('./assets/imgs/products/feature-5.jpg.webp');"></div>
+                                        <span class="product_name">Carb Pool Security</span>
+                                        <span class="fw-bold product_price">$30.00</span>
+                                        <ul class="d-flex list-unstyled product_action_btns">
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-1 d-flex justify-content-between align-items-center">
+                                        <div class="product_imgs" style="background-image: url('./assets/imgs/products/feature-6.jpg.webp');"></div>
+                                        <span class="product_name">Carb Pool Security</span>
+                                        <span class="fw-bold product_price">$30.00</span>
+                                        <ul class="d-flex list-unstyled product_action_btns">
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-1 d-flex justify-content-between align-items-center">
+                                        <div class="product_imgs" style="background-image: url('./assets/imgs/products/feature-7.jpg.webp');"></div>
+                                        <span class="product_name">Carb Pool Security</span>
+                                        <span class="fw-bold product_price">$30.00</span>
+                                        <ul class="d-flex list-unstyled product_action_btns">
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-1 d-flex justify-content-between align-items-center">
+                                        <div class="product_imgs" style="background-image: url('./assets/imgs/products/feature-8.jpg.webp');"></div>
+                                        <span class="product_name">Carb Pool Security</span>
+                                        <span class="fw-bold product_price">$30.00</span>
+                                        <ul class="d-flex list-unstyled product_action_btns">
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_heart_icon"><i class="fas fa-heart"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle"><i class="fas fa-sync"></i></a>
+                                            </li>
+                                            <li class="px-1">
+                                                <a href="javascript:void(0)" class="nav-link rounded-circle product_cart_icon"><i class="fas fa-shopping-cart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- start footer section -->
+    <footer>
+        <div class="py-5 footer_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div class="footer_contant_container">
+                            <div class="mb-3 footer_contant_header">
+                                <img src="./assets/imgs/logos/logo.png.webp" width="130px" alt="footer logo">
+                            </div>
+                            <div class="footer_content_body">
+                                <ul class="list-unstyled">
+                                    <li class="py-2">
+                                        <a href="#" class="nav-link">Address:Address: 60-49 Road 11378 New York</a>
+                                    </li>
+                                    <li class="py-2">
+                                        <a href="#" class="nav-link">Phone: +65 11.188.888</a>
+                                    </li>
+                                    <li class="py-2">
+                                        <a href="#" class="nav-link">Email: hello@colorlib.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div class="footer_contant_container">
+                            <div class="mb-3 footer_contant_header">
+                                <h5>Useful Links</h5>
+                            </div>
+                            <div class="footer_content_body">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <ul class="list-unstyled">
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">About Us</a>
+                                            </li>
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">About Our Shop</a>
+                                            </li>
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">Secure Shopping</a>
+                                            </li>
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">Delivery infomation</a>
+                                            </li>
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">Privacy Policy</a>
+                                            </li>
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">Our Sitemap</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <ul class="list-unstyled">
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">Who We Are</a>
+                                            </li>
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">Our Services</a>
+                                            </li>
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">Projects</a>
+                                            </li>
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">Contact</a>
+                                            </li>
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">Innovation</a>
+                                            </li>
+                                            <li class="py-1">
+                                                <a href="#" class="nav-link">Testimonials</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div class="footer_contant_container">
+                            <div class="mb-3 footer_contant_header">
+                                <h5>Join Our Newsletter Now</h5>
+                            </div>
+                            <div class="footer_content_body">
+                                <ul class="list-unstyled">
+                                    <li class="py-2" >
+                                        Get E-mail updates about our latest shop and special offers.
+                                    </li>
+                                    <li class="py-2">
+                                        <form action="" method="POST">
+                                            <div class="input-group">
+                                                <input type="email" name="email" id="email" class="form-control rounded-0 border-0 shadow-none outline-none py-2 px-3" placeholder="Enter Your Email">
+                                                <button type="submit" class="btn rounded-0 border-0 outline-none text-uppercase" >Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </li>
+                                    <li class="py-2">
+                                        <ul class="list-unstyled d-flex footer_contact_icon">
+                                            <li>
+                                                <a href="#" class="nav-link">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link">
+                                                    <i class="fab fa-google-plus"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link">
+                                                    <i class="fas fa-envelope"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer section -->
+    <!-- bootstrap v5.3 css1 js1 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- jquery v 3.6.3 -->
+    <script src="./assets/libs/jquery3-6-3.js"></script>
+
+    <!-- jquert ui -->
+    <script src="./assets/libs/jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+
+    <!-- magnific popup css1 js1 -->
+    <script src="./assets/libs/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+
+    <!-- owlcarousel css2 js1  -->
+    <script src="./assets/libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+
+    <!-- custom js -->
+    <script src="./assets/dist/js/shop.js"></script>
+
+</body>
+</html>

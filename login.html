@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ogani Site</title>
+
+    <!-- font awesome 5.15.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- bootstrap v5.3 css1 js1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/dist/css/style.css">
+
+</head>
+<body >
+
+    <div class="log_in_box_container">
+        <div class="p-4 log_in_box">
+            <div class="mb-4 log_in_box_header">
+                <h3>Sign In</h3>
+            </div>
+            <div class="mb-2 log_in_box_body">
+                <form action="" method="POST">
+                    <div class="mb-3 form-group">
+                        <input type="email" name="email" id="email" class="form-control shadow-none  outline-none" placeholder="Enter Your Eamil" autocomplete="off">
+                    </div>
+                    <div class="mb-3 form-group">
+                        <input type="password" name="password" id="password" class="form-control shadow-none  outline-none" placeholder="Enter Your Password">
+                        
+                        <label for="show_password" id="eyes"><i class="fas fa-eye"></i></label>
+                        <input type="checkbox" name="" id="show_password" class="d-none">
+                    </div>
+                    <div class="d-grid">
+                        <button class="btn text-white fw-semibold" style="background-color: var(--global-green-color) !important;">Log In</button>
+                    </div>
+                </form>
+            </div>
+            <div class=" log_in_box_footer">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span><a href="#">Remember Me</a></span>
+                    <span><a href="#">Forget Password</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrap v5.3 css1 js1 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    
+    <!-- jquery v 3.6.3 -->
+    <script src="./assets/libs/jquery3-6-3.js"></script>
+
+
+    <!-- custom js -->
+    <script src="./assets/dist/js/login.js"></script>
+
+    
+
+</body>
+</html>
